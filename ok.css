@@ -1,0 +1,26 @@
+body {
+background-image: url("2.jpg");
+}
+.d {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+#camera {
+  border: 2px dashed black;
+  width: 350px;
+  height: 300px;
+
+}
+/* On mouse-over */
+.d:hover {background: #eee;}
+
+.success {color: green;}
+.info {color: dodgerblue;}
+.warning {color: orange;}
+.danger {color: red;}
+.default {color: black;}
